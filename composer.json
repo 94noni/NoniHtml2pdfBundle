@@ -1,0 +1,33 @@
+{
+    "name": "94noni/html2pdf-bundle",
+    "type": "symfony-bundle",
+    "description": "Html2pdf for Symfony.",
+    "keywords": ["pdf", "tcpdf", "html2pdf", "symfony"],
+    "homepage": "https://github.com/94noni/html2pdf-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antoine Makdessi",
+            "email": "amakdessi@me.com",
+            "homepage": "http://antoine.makdessi.free.fr"
+        },
+        {
+            "name": "Tristan Maindron",
+            "email": "tmaindron@gmail.com",
+            "role": "Original author"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "spipu/html2pdf": "^5.2",
+        "symfony/dependency-injection": "^5.4",
+        "symfony/http-kernel": "^5.4"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "^5.4",
+        "symfony/yaml": "^5.4"
+     },
+    "autoload": {
+        "psr-4": { "Noni\\Html2pdfBundle\\": "./" }
+    }
+}
