@@ -16,7 +16,7 @@ How to install?
 Use [Composer](https://getcomposer.org) to install it:
 
 ```bash
-$ composer require noni/html2pdf-bundle
+$ composer require 94noni/html2pdf-bundle
 ```
 
 Enable it in your `config/bundles.php` file:

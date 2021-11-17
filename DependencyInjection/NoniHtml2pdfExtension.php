@@ -18,7 +18,7 @@ class NoniHtml2pdfExtension extends Extension
         $config = $this->processConfiguration($configuration, $configs);
 
         foreach ($config as $key => $value) {
-            $container->setParameter(sprintf('html2pdf.%s', $key), $value);
+            $container->setParameter(\sprintf('html2pdf.%s', $key), $value);
         }
 
         $file = new FileLocator(__DIR__.'/../Resources/config');
