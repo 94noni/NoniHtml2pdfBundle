@@ -1,14 +1,20 @@
 NoniHtml2pdfBundle
-=====================
+==================
 
-Html2pdf for Symfony.
+### Fork of the original
+
+Difference with latest v0.x is the support of Symfony v6+ and PHP v8+, tagged here as v1.
+
+Used for personal projects to render some PDF.
 
 History
 -------
 
 [Html2pdf](https://github.com/spipu/html2pdf) for [Symfony](https://symfony.com) applications.
 
-Please read https://github.com/Deamon/EnseparHtml2pdfBundle/pull/37
+Please read https://github.com/FrDeamon/EnseparHtml2pdfBundle/pull/37
+
+---
 
 How to install?
 ---------------
